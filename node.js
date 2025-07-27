@@ -27,13 +27,13 @@ const showWinner=(userWin,userChoice,compChoice) =>{
     }else{
         compScore++;
         compScorePara.innerText=compScore;
-        msg.innerText=`you lost!, ${userChoice} beats your ${compChoice}`;
+        msg.innerText=`you lost!, ${compChoice } beats your ${userChoice}`;
         msg.style.backgroundColor="red";
 
     }
 }
 const playGame = (userChoice)=>{
-    const compChoice = "rock";//gencompchoice();
+    const compChoice = gencompchoice();
 
     if(userChoice === compChoice){
         drawGame();
