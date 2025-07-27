@@ -33,7 +33,7 @@ const showWinner=(userWin,userChoice,compChoice) =>{
     }
 }
 const playGame = (userChoice)=>{
-    const compChoice = gencompchoice();
+    const compChoice = "rock";//gencompchoice();
 
     if(userChoice === compChoice){
         drawGame();
