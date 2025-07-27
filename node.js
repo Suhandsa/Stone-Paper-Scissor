@@ -14,7 +14,7 @@ const gencompchoice= () =>{
 }
 
 const drawGame= () =>{
-    msg.innertext="Game was Draw.play again."
+    msg.innerText="Game was Draw.play again."
     msg.Style.backgroundColor = "#311868" ;
 
 };
